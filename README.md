@@ -13,7 +13,6 @@
 ** The db folder is where we the file for our db config, models, and controllers will be defined
 
 ## Make sure to run npm install after pulling from master. That way you'll first get all the updated changes AND install any new dependencies needed to run our application
-
 # Here are some helpful links:
 
 MongoDB - https://github.com/mongodb/homebrew-brew
@@ -23,6 +22,7 @@ React - https://reactjs.org/docs/introducing-jsx.html
 Express - http://expressjs.com/en/guide/routing.html
 Axios - https://kapeli.com/cheat_sheets/Axios.docset/Contents/Resources/Documents/index
 Chalk - https://www.npmjs.com/package/chalk
+Upsplash - https://unsplash.com/documentation#search-photos
 
 # Helpful tips
 
