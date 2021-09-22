@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Searchbar from './components/SearchBar.jsx';
-
+import $ from "jquery"
 
 class App extends React.Component{
     constructor(props) {
@@ -17,7 +17,7 @@ class App extends React.Component{
     }
 
     search(searchTerm) {
-        $.post("/images", {searchTerm}, (data) => {
+        $.get("/images", {searchTerm}, (data) => {
             this.setState({
                 images: data
             })
